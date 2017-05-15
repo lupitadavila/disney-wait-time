@@ -1,3 +1,36 @@
 // Place all the styles related to the twilio controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Khula:300,400');
+
+body{
+  background: url(image_path("cloudy-day.png"));
+
+}
+.content{
+  text-align: center;
+  background: #fff;
+  border: 20px solid #fff;
+  margin-top: 2%;
+  font-family: 'Khula', sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 300;
+  .number{
+    font-size: 45px;
+    line-height: 55px;
+    display: block;
+    color: #bbb;
+    margin-bottom: 10px;
+  }
+  .small{
+    font-size: 11px;
+    font-weight: 400;
+  }
+  h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    line-height: 100px;
+  }
+}

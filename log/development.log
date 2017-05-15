@@ -1,0 +1,1041 @@
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:21:56 -0700
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "disney-wait-time_development" does not exist
+):
+  
+activerecord (5.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
+activerecord (5.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.3) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.3) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.3) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.3) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.3) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.3) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.3) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.3) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.8ms)
+  [1m[35m (148.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (75.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2931071520532078770);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-05-14 23:22:51.910363"], ["updated_at", "2017-05-14 23:22:51.910363"]]
+  [1m[35m (12.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2931071520532078770)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:23:07 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (1.0ms)
+Completed 200 OK in 395ms (Views: 386.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:26:27 -0700
+Processing by TwilioController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Account SID and auth token are required):
+  
+app/controllers/twilio_controller.rb:10:in `new'
+app/controllers/twilio_controller.rb:10:in `index'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.4ms)
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:49:20 -0700
+Processing by TwilioController#index as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Account SID and auth token are required):
+  
+app/controllers/twilio_controller.rb:10:in `new'
+app/controllers/twilio_controller.rb:10:in `index'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.9ms)
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:49:24 -0700
+Processing by TwilioController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Account SID and auth token are required):
+  
+app/controllers/twilio_controller.rb:10:in `new'
+app/controllers/twilio_controller.rb:10:in `index'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.6ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.6ms)
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:51:05 -0700
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:51:15 -0700
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:51:15 -0700
+Started PUT "/__web_console/repl_sessions/ff3908c9add52bcaf86ff8d0a534a5e3" for 127.0.0.1 at 2017-05-14 16:51:15 -0700
+Started PUT "/__web_console/repl_sessions/ff3908c9add52bcaf86ff8d0a534a5e3" for 127.0.0.1 at 2017-05-14 16:51:15 -0700
+Processing by TwilioController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Account SID and auth token are required):
+  
+app/controllers/twilio_controller.rb:10:in `new'
+app/controllers/twilio_controller.rb:10:in `index'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.2ms)
+Started PUT "/__web_console/repl_sessions/ff3908c9add52bcaf86ff8d0a534a5e3" for 127.0.0.1 at 2017-05-14 16:51:16 -0700
+Processing by TwilioController#index as HTML
+Processing by TwilioController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+ArgumentError (Account SID and auth token are required):
+ArgumentError (Account SID and auth token are required):
+  
+  
+app/controllers/twilio_controller.rb:10:in `new'
+app/controllers/twilio_controller.rb:10:in `index'
+app/controllers/twilio_controller.rb:10:in `new'
+app/controllers/twilio_controller.rb:10:in `index'
+Started PUT "/__web_console/repl_sessions/ff3908c9add52bcaf86ff8d0a534a5e3" for 127.0.0.1 at 2017-05-14 16:51:16 -0700
+Started PUT "/__web_console/repl_sessions/ff3908c9add52bcaf86ff8d0a534a5e3" for 127.0.0.1 at 2017-05-14 16:51:16 -0700
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.6ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.6ms)
+Started PUT "/__web_console/repl_sessions/0adb1fcebb553af7466d3a9aea176d5c" for 127.0.0.1 at 2017-05-14 16:51:19 -0700
+Started PUT "/__web_console/repl_sessions/0adb1fcebb553af7466d3a9aea176d5c" for 127.0.0.1 at 2017-05-14 16:51:29 -0700
+Started GET "/" for 127.0.0.1 at 2017-05-14 16:53:45 -0700
+Processing by TwilioController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Account SID and auth token are required):
+  
+app/controllers/twilio_controller.rb:10:in `new'
+app/controllers/twilio_controller.rb:10:in `index'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+Started PUT "/__web_console/repl_sessions/5128c558991a748e5580e91c0fff6b2e" for 127.0.0.1 at 2017-05-14 16:53:49 -0700
+Started PUT "/__web_console/repl_sessions/5128c558991a748e5580e91c0fff6b2e" for 127.0.0.1 at 2017-05-14 16:53:49 -0700
+Started GET "/" for 127.0.0.1 at 2017-05-14 17:01:18 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.8ms)
+Completed 200 OK in 186ms (Views: 176.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 17:12:14 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 17:15:27 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.8ms)
+Completed 200 OK in 174ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.6.246.0 at 2017-05-14 17:15:34 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.6.246.0 at 2017-05-14 17:16:24 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.6.246.0 at 2017-05-14 17:29:02 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 138ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//messages/reply" for 24.6.246.0 at 2017-05-14 17:29:06 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/messages/reply"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (4.4ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.5ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.5ms)
+Started GET "//messages" for 24.6.246.0 at 2017-05-14 17:33:48 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for MessagesController):
+  
+actionpack (5.0.3) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.3) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.3) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.3) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.3) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.3) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.3) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.2) lib/rack/etag.rb:25:in `call'
+rack (2.0.2) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.2) lib/rack/head.rb:12:in `call'
+rack (2.0.2) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.2) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.3) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.3) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.3) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.3) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.3) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.3ms)
+Started GET "/" for 24.6.246.0 at 2017-05-14 17:33:51 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 54.144.203.98 at 2017-05-14 17:36:09 -0700
+Cannot render console from 54.144.203.98! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM62cc6bb523f55b1046f64ad31455d263", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM62cc6bb523f55b1046f64ad31455d263", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Testing", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM62cc6bb523f55b1046f64ad31455d263", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1060ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 54.210.135.135 at 2017-05-14 17:45:10 -0700
+Cannot render console from 54.210.135.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM4bed30cd10230f1f4d52479bd3ebcd42", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM4bed30cd10230f1f4d52479bd3ebcd42", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates of the Caribbean", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM4bed30cd10230f1f4d52479bd3ebcd42", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 262ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `length=' for []:Array
+Did you mean?  length):
+  
+app/models/echelon_handler.rb:11:in `search'
+app/controllers/messages_controller.rb:9:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.1ms)
+Started POST "/messages/reply" for 34.203.238.233 at 2017-05-14 17:45:53 -0700
+Cannot render console from 34.203.238.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM16d9e85f7ff487020806f93cf6cdc3f5", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM16d9e85f7ff487020806f93cf6cdc3f5", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates of the Caribbean", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM16d9e85f7ff487020806f93cf6cdc3f5", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 807ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 34.207.206.10 at 2017-05-14 17:47:04 -0700
+Cannot render console from 34.207.206.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM885ae6714e872d229a43df0123f22f80", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM885ae6714e872d229a43df0123f22f80", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM885ae6714e872d229a43df0123f22f80", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 734ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.70.101.99 at 2017-05-14 17:49:34 -0700
+Cannot render console from 52.70.101.99! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM78ce1f81b86e0fc22b6e7c9ae4c7cfd6", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM78ce1f81b86e0fc22b6e7c9ae4c7cfd6", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM78ce1f81b86e0fc22b6e7c9ae4c7cfd6", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown ride name):
+  
+app/models/echelon_handler.rb:10:in `search'
+app/controllers/messages_controller.rb:9:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+Started POST "/messages/reply" for 54.236.5.111 at 2017-05-14 17:50:26 -0700
+Cannot render console from 54.236.5.111! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMb98e116855651dca32f0b7fd51c726b9", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMb98e116855651dca32f0b7fd51c726b9", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Stitch", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMb98e116855651dca32f0b7fd51c726b9", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown ride name):
+  
+app/models/echelon_handler.rb:11:in `search'
+app/controllers/messages_controller.rb:9:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.9ms)
+Started POST "/messages/reply" for 107.22.156.76 at 2017-05-14 17:51:03 -0700
+Cannot render console from 107.22.156.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMbf6432f61254767817c8e10e092513ac", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMbf6432f61254767817c8e10e092513ac", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates of the Caribbean", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMbf6432f61254767817c8e10e092513ac", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown ride name):
+  
+app/models/echelon_handler.rb:11:in `search'
+app/controllers/messages_controller.rb:9:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.4ms)
+Started POST "/messages/reply" for 52.90.107.56 at 2017-05-14 17:53:04 -0700
+Cannot render console from 52.90.107.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMc7ac5e0425ea9fb5ac9927167b8cd6fc", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMc7ac5e0425ea9fb5ac9927167b8cd6fc", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates of the Caribbean", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMc7ac5e0425ea9fb5ac9927167b8cd6fc", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Array into String):
+  
+app/models/echelon_handler.rb:11:in `+'
+app/models/echelon_handler.rb:11:in `search'
+app/controllers/messages_controller.rb:9:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.3ms)
+Started POST "/messages/reply" for 52.207.36.26 at 2017-05-14 17:54:07 -0700
+Cannot render console from 52.207.36.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMad3eefc6c584301dbb472bc79fed536c", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMad3eefc6c584301dbb472bc79fed536c", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates of the Caribbean", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMad3eefc6c584301dbb472bc79fed536c", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1105ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.207.36.26 at 2017-05-14 17:57:29 -0700
+Cannot render console from 52.207.36.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM47b8a7a130fafc3895143e9f3985a21b", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM47b8a7a130fafc3895143e9f3985a21b", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates of the Caribbean", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM47b8a7a130fafc3895143e9f3985a21b", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 975ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.55.197.109 at 2017-05-14 17:58:17 -0700
+Cannot render console from 52.55.197.109! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMe1006033ae415a001d7234193a77cb30", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMe1006033ae415a001d7234193a77cb30", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Dhhdsn", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMe1006033ae415a001d7234193a77cb30", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown ride name):
+  
+app/models/echelon_handler.rb:13:in `search'
+app/controllers/messages_controller.rb:9:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.7ms)
+Started POST "/messages/reply" for 34.207.78.76 at 2017-05-14 18:02:17 -0700
+Cannot render console from 34.207.78.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM9266a5636b7288b0ebc13ec6f6e53a92", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM9266a5636b7288b0ebc13ec6f6e53a92", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Asnskks", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM9266a5636b7288b0ebc13ec6f6e53a92", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 935ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 184.73.83.3 at 2017-05-14 18:02:33 -0700
+Cannot render console from 184.73.83.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM8c6cf3bdb4e2e74cf1dfb9ed7ae521fe", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM8c6cf3bdb4e2e74cf1dfb9ed7ae521fe", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Stitch", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM8c6cf3bdb4e2e74cf1dfb9ed7ae521fe", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 631ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 34.207.197.216 at 2017-05-14 18:02:47 -0700
+Cannot render console from 34.207.197.216! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM111226bb6f33a3cde6f533c7ae9efb2b", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM111226bb6f33a3cde6f533c7ae9efb2b", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Castle", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM111226bb6f33a3cde6f533c7ae9efb2b", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 618ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 34.201.132.47 at 2017-05-14 18:03:01 -0700
+Cannot render console from 34.201.132.47! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM66bceb7ea13b2b9a166a12c60d47dc7e", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM66bceb7ea13b2b9a166a12c60d47dc7e", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Ariel", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM66bceb7ea13b2b9a166a12c60d47dc7e", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 736ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 107.23.133.125 at 2017-05-14 18:03:55 -0700
+Cannot render console from 107.23.133.125! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM4eb5bc3d7b55f4adfec200d3ef2a0827", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM4eb5bc3d7b55f4adfec200d3ef2a0827", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Space", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM4eb5bc3d7b55f4adfec200d3ef2a0827", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 714ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.201.100.250 at 2017-05-14 18:05:48 -0700
+Cannot render console from 52.201.100.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMbedae21735001a6b495e277a1f81558d", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMbedae21735001a6b495e277a1f81558d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"ARIEL", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMbedae21735001a6b495e277a1f81558d", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/models/echelon_handler.rb:14:in `block in search'
+app/models/echelon_handler.rb:12:in `each'
+app/models/echelon_handler.rb:12:in `search'
+app/controllers/messages_controller.rb:9:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.3ms)
+Started POST "/messages/reply" for 52.207.252.148 at 2017-05-14 18:07:34 -0700
+Cannot render console from 52.207.252.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:MessagesController> at /home/lupita/github/disney-wait-time/app/controllers/messages_controller.rb:2)
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM14a1504c39fc142c35e952aef0251eab", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM14a1504c39fc142c35e952aef0251eab", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pirates", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM14a1504c39fc142c35e952aef0251eab", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1443ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 54.89.139.30 at 2017-05-14 18:08:28 -0700
+Cannot render console from 54.89.139.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMfeac10239daa6ac8db8ae8f80070f6cd", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMfeac10239daa6ac8db8ae8f80070f6cd", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Stitch", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMfeac10239daa6ac8db8ae8f80070f6cd", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 736ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.23.247.173 at 2017-05-14 18:08:42 -0700
+Cannot render console from 52.23.247.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM40344a10513572b6780c0e35fff02e52", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM40344a10513572b6780c0e35fff02e52", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Pooh", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM40344a10513572b6780c0e35fff02e52", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 738ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 54.210.216.116 at 2017-05-14 18:20:10 -0700
+Cannot render console from 54.210.216.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM1f5c2bd8c74fe16d378d2221eba6dd9a", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"45214", "SmsSid"=>"SM1f5c2bd8c74fe16d378d2221eba6dd9a", "FromState"=>"OH", "SmsStatus"=>"received", "FromCity"=>"CINCINNATI", "Body"=>"Splash Mountain ", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM1f5c2bd8c74fe16d378d2221eba6dd9a", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+15135022419", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 828ms (ActiveRecord: 0.0ms)
+
+
+  
+Twilio::REST::RequestError (The number +15135022419 is unverified. Trial accounts cannot send messages to unverified numbers; verify +15135022419 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.):
+  
+app/controllers/messages_controller.rb:11:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.4ms)
+Started POST "/messages/reply" for 34.207.197.216 at 2017-05-14 18:21:20 -0700
+Cannot render console from 34.207.197.216! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMd4682811c6f35aaaaad095a07923e851", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SMd4682811c6f35aaaaad095a07923e851", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Splash", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMd4682811c6f35aaaaad095a07923e851", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 941ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.90.140.194 at 2017-05-14 18:21:39 -0700
+Cannot render console from 52.90.140.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM230b7c4d701edcd9837456ea9ecba5b8", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"92704", "SmsSid"=>"SM230b7c4d701edcd9837456ea9ecba5b8", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA ANA", "Body"=>"Splash mountain", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM230b7c4d701edcd9837456ea9ecba5b8", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+17148331120", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 628ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.70.101.99 at 2017-05-14 18:21:45 -0700
+Cannot render console from 52.70.101.99! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM7d24be3b28db6f5255c14ca76d4259ba", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"45214", "SmsSid"=>"SM7d24be3b28db6f5255c14ca76d4259ba", "FromState"=>"OH", "SmsStatus"=>"received", "FromCity"=>"CINCINNATI", "Body"=>"Splash Mountain ", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM7d24be3b28db6f5255c14ca76d4259ba", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+15135022419", "ApiVersion"=>"2010-04-01"}
+Completed 500 Internal Server Error in 643ms (ActiveRecord: 0.0ms)
+
+
+  
+Twilio::REST::RequestError (The number +15135022419 is unverified. Trial accounts cannot send messages to unverified numbers; verify +15135022419 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.):
+  
+app/controllers/messages_controller.rb:11:in `reply'
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/lupita/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.2ms)
+Started POST "/messages/reply" for 54.86.14.20 at 2017-05-14 18:33:11 -0700
+Cannot render console from 54.86.14.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SMec2aa65a15e45b20e25d9abcff8d7507", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"45214", "SmsSid"=>"SMec2aa65a15e45b20e25d9abcff8d7507", "FromState"=>"OH", "SmsStatus"=>"received", "FromCity"=>"CINCINNATI", "Body"=>"Splash Mountain", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SMec2aa65a15e45b20e25d9abcff8d7507", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+15135022419", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 887ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/reply" for 52.90.213.102 at 2017-05-14 18:33:36 -0700
+Cannot render console from 52.90.213.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#reply as */*
+  Parameters: {"ToCountry"=>"US", "ToState"=>"CA", "SmsMessageSid"=>"SM578b6657c37e324f02350206c74944d8", "NumMedia"=>"0", "ToCity"=>"", "FromZip"=>"45214", "SmsSid"=>"SM578b6657c37e324f02350206c74944d8", "FromState"=>"OH", "SmsStatus"=>"received", "FromCity"=>"CINCINNATI", "Body"=>"Space Mountain", "FromCountry"=>"US", "To"=>"+16579004302", "ToZip"=>"", "NumSegments"=>"1", "MessageSid"=>"SM578b6657c37e324f02350206c74944d8", "AccountSid"=>"AC8cb1a42f3acdfea19bd2b097ff291c55", "From"=>"+15135022419", "ApiVersion"=>"2010-04-01"}
+  Rendering messages/reply.html.erb within layouts/application
+  Rendered messages/reply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 690ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.6.246.0 at 2017-05-14 18:35:58 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.6.246.0 at 2017-05-14 18:43:49 -0700
+Cannot render console from 24.6.246.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 103ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:43:56 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:44:23 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:44:45 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 99ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:45:09 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:45:11 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:45:12 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:45:21 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:45:43 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:46:24 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:46:55 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:47:31 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:47:53 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:48:21 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:48:55 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:49:08 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:53:12 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:53:15 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:53:22 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:53:54 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:17 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (1.8ms)
+Completed 200 OK in 358ms (Views: 351.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:22 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:24 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:25 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:25 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:26 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:26 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:27 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:48 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:50 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:57 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:54:59 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:55:51 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:56:48 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:57:00 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:57:14 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:58:10 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:58:35 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 18:59:22 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 19:01:18 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 19:01:29 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 19:02:17 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 19:03:00 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 19:03:24 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 19:03:45 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 19:04:25 -0700
+Processing by TwilioController#index as HTML
+  Rendering twilio/index.erb within layouts/application
+  Rendered twilio/index.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
